@@ -8,7 +8,7 @@ allLabels = ['classA','classB','classC','classD','classE']
 #ce fichier s'attend à lire 3000 prédictions, une par ligne
 #réduisez nbLines en période de test.
 nbLines = 3000
-fd =open(sys.argv[1],'r')
+fd =open("labels.txt",'r')
 lines = fd.readlines()
 
 
